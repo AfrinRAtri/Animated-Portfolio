@@ -121,14 +121,14 @@ export default function Hero() {
             Web Developer &amp; Designer
           </motion.p>
 
-          <motion.p
+          {/* <motion.p
             variants={item}
             className="mt-5 max-w-md mx-auto md:mx-0 text-slate-400 leading-relaxed"
           >
             I’m a Web Developer & Designer,focused on crafting modern,
             responsive, and high-performance digital experiences—where clean
             code meets thoughtful design.
-          </motion.p>
+          </motion.p> */}
 
           <motion.div
             variants={item}

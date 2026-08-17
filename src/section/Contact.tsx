@@ -112,6 +112,7 @@ export default function ContactPage() {
             whileInView="show"
             viewport={{ once: true, amount: 0.2 }}
             className="flex flex-col gap-4"
+            className="order-2 flex flex-col gap-4 lg:order-1"
           >
             <div className="overflow-hidden rounded-2xl border border-white/10">
               <iframe
@@ -169,8 +170,8 @@ export default function ContactPage() {
               </div>
             </div>
           </motion.div>
-
-          {/* RIGHT: Contact form */}
+          {/* 
+          RIGHT: Contact form */}
           <motion.form
             custom={2}
             variants={fadeUp}
@@ -179,6 +180,7 @@ export default function ContactPage() {
             viewport={{ once: true, amount: 0.2 }}
             onSubmit={handleSubmit}
             className="flex flex-col gap-5 rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm sm:p-8"
+            className="order-1 flex flex-col gap-5 rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm sm:p-8 lg:order-2"
           >
             <div>
               <label className="mb-2 flex items-center gap-2 text-xs uppercase tracking-wide text-slate-400">
