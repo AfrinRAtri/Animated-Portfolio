@@ -17,7 +17,7 @@ const WHATSAPP_NUMBER = "8801968560419"; // no + or spaces
 const LOCATION_TEXT = "Gazipur, Dhaka, Bangladesh";
 const MAP_EMBED_SRC =
   "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14580.242061533192!2d90.24094196473115!3d23.99364005970896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755e65a3f642a47%3A0x83579bd6af14b1d5!2sZirani!5e0!3m2!1sen!2sbd!4v1786964567220!5m2!1sen!2sbd";
-  
+
 const socialLinks = [
   { icon: FaGithub, href: "https://github.com/AfrinRatri", label: "GitHub" },
   {
@@ -25,11 +25,11 @@ const socialLinks = [
     href: "https://www.linkedin.com/in/ratri-afrin-9168092a5",
     label: "LinkedIn",
   },
-//   {
-//     icon: FaTwitter,
-//     href: "https://twitter.com/yourusername",
-//     label: "Twitter",
-//   },
+  //   {
+  //     icon: FaTwitter,
+  //     href: "https://twitter.com/yourusername",
+  //     label: "Twitter",
+  //   },
   {
     icon: FaInstagram,
     href: "https://instagram.com/yourusername",
@@ -65,7 +65,7 @@ export default function ContactPage() {
     e.preventDefault();
 
     const text = `Hello, I'm ${form.name}.%0AEmail: ${form.email}%0A%0AMessage: ${form.message}`;
-    const url = `https://wa.me/${01968560419}?text=${text}`;
+    const url = `https://wa.me/8801968560419?text=${text}`;
 
     window.open(url, "_blank");
 
