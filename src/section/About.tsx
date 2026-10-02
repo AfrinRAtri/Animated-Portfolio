@@ -18,7 +18,7 @@ import { Eye, Download, GraduationCap, Sparkles } from "lucide-react";
  */
 
 const PROFILE_IMAGE = "/images/myimg.png";
-const CV_PATH = "/cv/RatriAfrin.Cv.pdf";
+const CV_PATH = "/cv/Ratri-AfrinCV.pdf";
 
 const SKILLS = [
   "HTML5",

@@ -25,9 +25,18 @@ interface Project {
 
 const PROJECTS: Project[] = [
   {
+    title: "Full-Stack Ecommerce Website",
+    description:
+      "A full-stack e-commerce platform built to deliver seamless online shopping with product variations, cart management, authentication, order processing, and an intuitive admin dashboard. Featuring responsive UI, API integration, CRUD operations, and secure data management, it provides a complete and scalable digital shopping experience.",
+    image: "/images/Ecommerce.png",
+    tags: ["React.js", "TypeScript", "Laravel", "Tailwind Css", "MySQL"],
+    liveUrl: "https://web-ecommerce-gm9k.vercel.app/",
+    githubUrl: "https://github.com/AfrinRAtri/WebEcommerce.git",
+  },
+  {
     title: "Business Website(TrustIT)",
     description:
-      "Modern corporate website with responsive design, smooth animations, and interactive features.",
+      "A modern corporate website developed for TrustIT, featuring responsive design, smooth animations, interactive components, and structured content. Built with HTML5, CSS, JavaScript, and Bootstrap, the website provides an engaging user experience while maintaining clean visuals, intuitive navigation, cross-device compatibility, and professional business presentation.",
     image: "/images/projects/ss.png",
     tags: ["HTML5", "JavaScript", "Bootstrap"],
     liveUrl: "https://golden-taffy-8baf0c.netlify.app/",
@@ -74,7 +83,7 @@ const PROJECTS: Project[] = [
   {
     title: "Admin Dashboard",
     description:
-      "Drag-and-drop task board, deadline reminder ও team collaboration feature সহ একটি productivity application।",
+      "A responsive admin dashboard designed for efficient management of products, orders, users, and website content. Featuring organized data views, CRUD operations, intuitive navigation, and interactive components, it provides administrators with a streamlined interface for monitoring and managing essential e-commerce activities efficiently.",
     image: "/images/projects/ss3.png",
     tags: [
       "React",
